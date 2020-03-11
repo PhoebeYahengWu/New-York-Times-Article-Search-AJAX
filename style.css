@@ -1,0 +1,10 @@
+.jumbotron {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #EFD9CE;
+    color: #3A3238;
+  }
+
+  table>button {
+      color: #3A3238;
+  }

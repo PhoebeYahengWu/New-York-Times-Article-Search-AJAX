@@ -3,40 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>New York Times Search</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-    <div class="jumbotron text-center mt-5">
-        <h1 class="display-4">New York Times Search</h1> 
+
+    <div class="container h-100">
+     <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-8">
+        <div class="jumbotron text-center mt-4 mb-3">
+        <h1 class="display-5">New York Times Search</h1> 
       </div>
+    </div> 
     </div>
       
-    <div class="row">
-      <form>
+    <div class="row h-100 justify-content-center align-items-center">
+      <form class="col-8">
+        <div class="card">
+        <div class="card-header">
+          <i class="far fa-list-alt"></i> Search Parameters
+        </div>
+
+        <div class="card-body">
         <div class="form-group">
           <label for="searchTerm">Search Term:</label>
           <input type="text" class="form-control" id="searchTerm">
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Number of Records to Retrieve:</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>5</option>
+            <option>10</option>
+          </select> 
         </div>
 
         <div class="form-group">
-            <label for="exampleInputPassword1">Start Year (Optional):</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="startYear">Start Year (Optional):</label>
+            <input type="text" class="form-control" id="startYear">
           </div>
 
           <div class="form-group">
-            <label for="exampleInputPassword1">End Year (Optaional):</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="endYear">End Year (Optaional):</label>
+            <input type="text" class="form-control" id="endYear">
           </div>
 
-        <button type="submit" class="btn btn-primary">Search</button>
+        <table style="width:100%">
+          <tbody>
+           <tr>
+            <button type="submit" class="btn btn-light" style="width:50%;"><i class="fas fa-search"></i> Search</button>
+            <button type="submit" class="btn btn-light" style="width:50%;"><i class="far fa-trash-alt"></i> Clear Results</button>
+          </tr>
+         </tbody>
+        </table>
+      </div>
+      </div>
+
+      <div class="card mt-3">
+        <div class="card-header">
+          <i class="far fa-list-alt"></i> Top Articles
+        </div>
+
+        <div class="card-body">
+        </div>
+        </div>
+
       </form>
+
+
+
+
     </div>
 
     <div class="row" id="articles">
