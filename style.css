@@ -5,6 +5,10 @@
     color: #3A3238;
   }
 
-  table>button {
-      color: #3A3238;
+  input:focus, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
   }
+
+  
+
