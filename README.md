@@ -3,7 +3,7 @@
 
 
 ## Description
-This application allows users to retrive top articles from New York Times based on keywords entered by user
+This application allows users to retrive top articles from the New York Times based on the keywords entered by user
 
 
 ## Contributor
