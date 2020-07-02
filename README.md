@@ -12,7 +12,7 @@ This application allows users to retrieve top articles from the New York Times b
 
 * Contributor
 
-* links
+* link
 
 * Questions
 
