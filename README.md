@@ -6,32 +6,26 @@ New York Times Search Tool is an application which allows users to retrieve the 
 
 ## Table of Contents
 
-* Tech/Framework Used
+* [Tech/Framework Used](#TechUsed)
 
-* Usage
+* [link](#Link)
 
-* Contributor
+* [Usage](#usage) 
 
-* link
-
-* Questions
+* [Questions](#Questions)
 
 
-## Tech/Framework Used
+## TechUsed
 JavaScript, Bootstrap, API, HTML, CSS
 
+## Link
+https://phoebeyahengwu.github.io/New-York-Times-Article-Search-AJAX/
 
 ## Usage
 Enter any keyword and click the search button.
 
-## Contributor
-Phoebe Yaheng Wu
-
-
-## Link to project URL
-https://phoebeyahengwu.github.io/New-York-Times-Article-Search-AJAX/
-
-
 ## Questions
+![user profile image](https://avatars0.githubusercontent.com/u/52837649?v=4)
 
-For questions about the project contact PhoebeYahengWu or directly at wuyaheng2016@gmail.com
+For questions about the project contact PhoebeYahengWu or directly at wuyaheng2016@gmail.com.
+
