@@ -19,7 +19,7 @@ New York Times Search Tool is an application which allows users to retrieve the 
 JavaScript, Bootstrap, API, React, CSS
 
 ## Link
-https://phoebeyahengwu.github.io/New-York-Times-Article-Search-AJAX/
+https://new-york-times-search-tool.herokuapp.com/
 
 ## Usage
 Enter any keyword and click the search button.
